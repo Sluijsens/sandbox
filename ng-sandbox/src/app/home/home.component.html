@@ -1,0 +1,6 @@
+<div class="button-container">
+    <button *ngFor="let destination of destinations"
+        (click)="navigate(destination.location)">
+        {{ destination.name }}
+    </button>
+</div>
